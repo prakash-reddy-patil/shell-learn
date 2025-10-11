@@ -3,7 +3,7 @@
 NAME1="prakash"
 Name2="pawan'
 
-echo "$prakash:: Hi $pawan, How are you?
-echo "$pawan  :: I am great $prakash, How about you;
-echo "$prakash::   am doing good, what s going on $pawan
-echo "$pawan  :: working a software company"
+echo "$NAME1:: Hi $Name2, How are you?"
+echo "$Name2  :: I am great $NAME1, How about you;
+echo "$NAME1::   am doing good, what s going on $Name2
+echo "$Name2  :: working a software company"
