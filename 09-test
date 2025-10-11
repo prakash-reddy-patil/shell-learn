@@ -13,4 +13,4 @@ echo "$NAME2::i am working a software company"
 
 read name
 
-echo "the given Pin Number is :$read"
+echo "the given Pin Number is :read"
