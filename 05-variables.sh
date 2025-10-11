@@ -2,8 +2,8 @@
 
 #environment variables
 
-export COURSE="DevSecOps with aws"
+export COURSE="Shell Scripting"
 
-echo "course name is:$COURSE"
+echo "course nameis:$COURSE"
 
 #this  variable is valid until this process is alive ,it is acessible to sub process also"
