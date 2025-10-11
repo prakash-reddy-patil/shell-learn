@@ -10,7 +10,7 @@ sum=$((num1+num2))
 echo "the addition of two numbers is:$sum"
 
 
-LEADERS=("modi" "trump" "modi" "putin")
+LEADERS=("modi" "trump" "patil" "putin")
 
 echo "All leaders are present in array is:${LEADERS[@]}"
 
