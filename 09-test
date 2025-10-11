@@ -11,6 +11,6 @@ echo "$NAME2::i am working a software company"
 
 #Read command  in linux is it takes input from the user,and store it in a variables.
 
-read number
+read name
 
 echo "the given Pin Number is :$read"
