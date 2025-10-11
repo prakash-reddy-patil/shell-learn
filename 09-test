@@ -1,12 +1,3 @@
-#!/bin/bash 
-
-NAME1="$1"
-NAME2="$2"
-
-echo "$NAME1:: Hi $NAME2, How are you?"
-echo "$NAME2:: I am great $NAME1, How about you;"
-echo "$NAME1:: am doing good, what s going on $NAME2"
-echo "$NAME2::i am working a software company"
 
 
 #Read command  in linux is it takes input from the user,and store it in a variables.
