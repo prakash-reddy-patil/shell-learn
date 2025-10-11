@@ -1,10 +1,12 @@
 #!/bin/bash
 
 #date 
-VAR_DATE=$(date +%s)
-echo "date and time is:$VAR_DATE"
+START_DATE=$(date +%s)
+#echo "date and time is:$START_DATE"
 
 sleep 10
 
-VAR_DATE2=$(date +%s)
-echo "date and time after processser sleep is:$VAR_DATE2"
+END_DATE=$(date +%s)
+#echo "date and time after processser sleep is:$END_DATE"
+Total_Time=$((START_DATE-END_DATE))
+echo "the total time difference after processer sleep is:$Total_time"
