@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAMES=$("patil""jaya""rohith""amar")
+NAMES=("patil""jaya""rohith""amar")
 
 echo "the given all names:$(NMAES[@])"
 echo "the given first name:$(NMAES[0])"
