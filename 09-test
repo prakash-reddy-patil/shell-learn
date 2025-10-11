@@ -4,4 +4,4 @@
 
 read name
 
-echo "the given name is :$read"
+echo "the name of he given persion is :$read"
