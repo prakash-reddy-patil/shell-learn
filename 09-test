@@ -1,10 +1,10 @@
 #!/bin/bash
 
-NAMES=("patil""jaya""rohith""amar")
+NAMES=("patil" "jaya" "rohith" "amar")
 
-echo "the given all names:${NMAES[@]}"
-echo "the given first name:${NMAES[0]}"
-echo "the given first name:${NMAES[1]}"
-echo "the given first name:${NMAES[2]}"
-echo "the given first name:${NMAES[3]}"
+echo "the given all names:${NAMES[@]}"
+echo "the given first name:${NAMES[0]}"
+echo "the given first name:${NAMES[1]}"
+echo "the given first name:${NAMES[2]}"
+echo "the given first name:${NAMES[3]}"
 
