@@ -1,7 +1,15 @@
 
 
+
+
 #Read command  in linux is it takes input from the user,and store it in a variables.
 
-read name
+#read name
 
-echo "the name of he given persion is :$name"
+#echo "the name of he given persion is :$name"
+
+
+
+echo "please enter a pin number"
+read PIN_Number
+echo "the given pin number is :$PIN_NUMBER"
