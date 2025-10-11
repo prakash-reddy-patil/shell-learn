@@ -11,5 +11,5 @@
 
 
 echo "please enter a pin number"
-read PIN_NUMBER
+read  -s PIN_NUMBER
 echo "the given pin number is :$PIN_NUMBER"
