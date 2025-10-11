@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+NAME1="prakash"
+Name2="pawan'
+
+echo "$prakash:: Hi $pawan, How are you?
+echo "$pawan  :: I am great $prakash, How about you;
+echo "$prakash::   am doing good, what s going on $pawan
+echo "$pawan  :: working a software company"
