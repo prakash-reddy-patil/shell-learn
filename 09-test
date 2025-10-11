@@ -2,7 +2,7 @@
 
 startdate=$(date +%s)
 
-sleep 10
+sleep 10 $
 
 enddate=$(date +%s)
 
