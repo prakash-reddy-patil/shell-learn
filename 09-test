@@ -1,11 +1,10 @@
 #!/bin/bash
 
-startdate=$(date +%s)
+NAMES=$("patil" "jaya" "rohith" "amar")
 
-sleep 10 &
+echo "the given all names:${NMAES[@]}"
+echo "the given first name:${NMAES[0]}"
+echo "the given first name:${NMAES[1]}"
+echo "the given first name:${NMAES[2]}"
+echo "the given first name:${NMAES[3]}"
 
-enddate=$(date +%s)
-
-time=$((startdate-enddate))
-
-echo "the execution of scrpit is:$time"
