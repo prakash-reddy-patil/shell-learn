@@ -13,6 +13,6 @@ echo "the addition of two numbers is:$sum"
 LEADERS=("praksh"  "trump"  "modi"  "putin")
 
 echo "All leaders are present in array is:${LEADERS[@]}"
-echo "the first leader in array is:$LEADERS[0]"
-echo "the third leader in array is:$LEADERS[2]"
+echo "the first leader in array is:${LEADERS[0]}"
+echo "the third leader in array is:${LEADERS[2]}"
 
