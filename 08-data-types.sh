@@ -24,7 +24,7 @@ echo "the third leader in array is:${LEADERS[2]}"
 
 
 
-<<'END_COMMENT'
+: <<'END_COMMENT'
 # everything in shell is considerd as string
 NUMBER1=100
 NUMBER2=200
