@@ -4,4 +4,4 @@
 
 read name
 
-echo "the given Pin Number is :$read"
+echo "the given name is :$read"
