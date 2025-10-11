@@ -1,15 +1,11 @@
+#!/bin/bash
 
+startdate=$(date +%s)
 
+sleep 10
 
+enddate=$(date +%s)
 
-#Read command  in linux is it takes input from the user,and store it in a variables.
+time=$((startdate-enddate))
 
-#read name
-
-#echo "the name of he given persion is :$name"
-
-
-
-echo "please enter a pin number"
-read  -s PIN_NUMBER
-echo "the given pin number is :$PIN_NUMBER"
+echo "the execution of scrpit is:$time"
