@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read number
+ number=$1 
 
 if [ $number  -lt 10 ]
 then
@@ -10,8 +10,12 @@ then
 fi
 
 
-
 if [ $number  -eq  10 ]
 then
 echo "the given number is equal 10"
 fi
+
+
+# -lt  lessthan
+# -gt greaterthan
+# -eq equalto
