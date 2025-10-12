@@ -1,8 +1,10 @@
 #!/bin/bash
 
-number=$1
+echo "please enther the number :"
 
-if [ ($number%2) -eq 0 ]; then 
+read number
+
+if [ $(($number % 2 )) -eq 0 ]; then 
 
   echo "the given $number is even"
 
