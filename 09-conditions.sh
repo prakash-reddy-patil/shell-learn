@@ -9,4 +9,6 @@ then
    echo "the given number is not less than 10"
 fi
 
-
+if [ $number  -eq  10 ]
+echo "the given number is equal 10"
+fi
