@@ -1,6 +1,6 @@
 #!/bin/bash
 
-number=$1
+read number
 
 if [ $number >10 ]
 then
@@ -8,7 +8,5 @@ then
    else
    echo "the given number is not less than 10"
 fi
-if [ $number -eq 10 ]
-then 
-echo "the given number is equal to 10"
-fi
+
+
