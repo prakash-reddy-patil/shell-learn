@@ -6,6 +6,7 @@ if [ $userid -nt 0 ]; then
 
     echo "ERROR:: Please run this script with root privelage"
 
+
 fi
 
  dnf install nginx -y 
