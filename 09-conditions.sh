@@ -19,3 +19,4 @@ fi
 # -lt  lessthan
 # -gt greaterthan
 # -eq equalto
+# -ne not equal to
