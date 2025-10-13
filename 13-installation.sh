@@ -31,7 +31,7 @@ if [ $? -nt 0 ] ; then
 fi
 
 
-dnf install python3  -y 
+dnf install python 3  -y 
 
 if [ $? -nt o ] ; then 
   
