@@ -1,11 +1,11 @@
 #!/bin/bash
 
-RED="\e[31m"
-GREEN="\e[32m"
-YELLOW="\e[33m"
-N="\[0m"
+R="\e[31m"         #RED
+G="\e[32m"         #GREEn
+Y="\e[33m"         #YELLOW
+N="\e[0m"          #NO COLOUR
 
-echo -e "$GREEN Hellow World $N"  # $N = same colour wont be followed for next time. its stops here only
+echo -e "$G Hellow World $N "    # $N = same colour wont be followed for next time. its stops here only
 echo "the colour doenot continues"
 
 
