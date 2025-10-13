@@ -24,12 +24,12 @@ fi
  
 
 dnf install mysql -y 
-VALIDATION $1  "MySQl"
+VALIDATION $?  "MySQl"
 
 dnf install nginx  -y 
-VALIDATION $1  "Nginx"
+VALIDATION $?  "Nginx"
 
 dnf install python3 -y 
-VALIDATION $1  "python"
+VALIDATION $?  "python"
 
 
