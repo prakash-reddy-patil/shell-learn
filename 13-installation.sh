@@ -10,33 +10,26 @@ if [ $USERID -ne 0 ]; then
 fi
 
 
-dnf install mysql -y 
-if [ $? -nt o ] ; then 
-  
-    echo "EROR:: installing MYSQl is failure"
-    exit 1
- else 
-    echo "Installing MYSQL is SCUCCES"
-fi
-
-
- dnf install nginx -y 
-
-if [ $? -nt 0 ] ; then 
+VALIDATION (){    #functions receive inputs through arguments lust like shell scripts argumnts
  
-    echo "EROR:: installing NGINX is failure"
-    exit 1
- else 
-    echo "Installing NGINX is SCUCCES"
-fi
-
-
-dnf install python3  -y 
-
 if [ $? -nt o ] ; then 
   
-    echo "EROR:: installing PYTHON is failure"
+    echo "EROR:: installing $2 is failure"
     exit 1
  else 
-    echo "Installing PYTHON is SCUCCES"
+    echo "Installing $2 is SCUCCES"
 fi
+}
+
+ 
+
+dnf install mysql -y 
+VALIDATION $?  "MySQl"
+
+dnf install nginx  -y 
+VALIDATION $?  "Nginx"
+
+dnf install python3 -y 
+VALIDATION $?  "python"
+
+
