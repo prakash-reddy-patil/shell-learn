@@ -35,8 +35,8 @@ dnf install python3  -y
 
 if [ $? -nt o ] ; then 
   
-    echo "EROR:: installing PHYTON is failure"
+    echo "EROR:: installing PHYTHON is failure"
     exit 1
  else 
-    echo "Installing PHYTON is SCUCCES"
+    echo "Installing PHYTHON is SCUCCES"
 fi
