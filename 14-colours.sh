@@ -6,9 +6,10 @@ Y="\e[33m"         #YELLOW
 N="\e[0m"          #NO COLOUR
 
 echo -e "$G Hellow World $N "    # $N = same colour wont be followed for next time. its stops here only
-echo "the colour doenot continues"
+echo "check this colour"
 
 
 
 
 
+x
