@@ -35,6 +35,8 @@ fi
  else 
    echo -e "mysql already exist ... $Y skipping $N"
    
+fi
+
  dnf list installed nginx -y
 
  if [ $? -ne 0 ]; then 
@@ -42,6 +44,7 @@ fi
    VALIDATION $?  "Nginx"
  else 
    echo -e "Nginx already exist ... $Y skipping $N"
+fi
 
 
 dnf list installed python3 -y
@@ -51,3 +54,4 @@ dnf list installed python3 -y
    VALIDATION $?  "python3"
  else 
    echo -e "python3 already exist ... $Y skipping $N"
+fi
